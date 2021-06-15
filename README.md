@@ -6,22 +6,31 @@ the test consist of simple tasks giving the applicant an opportunity to show the
 
 ---
 
-requirements and information about the repository:
+Steps:
 
-1. use tailwindcss to style your components
-2. the file `tailwind.config.js` contains basic but somewhat modified configuration to be used in your components
-3. jquery = disqualification
+1. clone this repository
+2. create a feature branch (this is where you will be doing all your work)
+3. kick off an environment for development of wordpress plugin consisting of single gutenberg block.
+4. the block will display a simple UI component:
+    - Option 1: [8rOW082f71](https://play.tailwindcss.com/8rOW082f71)
+    - Option 2: [7W5Y2D9rjJ](https://play.tailwindcss.com/7W5Y2D9rjJ)
+5. with editable text field; and
+5. dynamic data from the websites database.
+5. you are required to complete only one of the two options.
+6. once completed, push your work to orgin and
+7. create a pull request.
+
+that's it;
+
+good luck
+
+
+
 
 ---
 
-Steps:
+Other notes:
 
-1. clone the repository
-2. initialise gitflow and create a feature branch on which you will do all your work
-3. kick off an environment for development of wordpress plugin consisting of single gutenberg block
-4. push to orgin and 
-5. start coding! your task is to create a single gutenberg block displaying an UI element as defined in one of the design documents below and assigned to you in the email you recived with the link to this repository
-6. once completed push your plugin to orgin and
-7. create a pull request.
-
-good luck
+1. utility first approach to front end will get you points.
+2. the less styles you write the more points you get.
+3. jquery gets you negative points
