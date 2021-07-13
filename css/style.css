@@ -1,0 +1,19 @@
+.title{
+  font-size: 36px;
+  font-weight: bold;
+  color: #f08d49;
+}
+
+.subtitle{
+  font-size: 28px;
+}
+
+.description{
+  font-size: 20px;
+  width: 48%;
+}
+
+.descriptions{
+  display: flex;
+  justify-content: space-between;
+}
