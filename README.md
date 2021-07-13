@@ -9,7 +9,7 @@ the test consist of simple tasks giving the applicant an opportunity to show the
 Steps:
 
 1. clone this repository
-2. create a feature branch (this is where you will be doing all your work)
+2. create a feature branch off `develop` (this is where you will be doing all your work)
 3. kick off an environment for development of wordpress plugin consisting of single gutenberg block.
 4. the block will display a simple UI component:
     - Option 1: [8rOW082f71](https://play.tailwindcss.com/8rOW082f71)
