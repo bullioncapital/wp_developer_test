@@ -18,7 +18,7 @@ function my_custom_blocl_acf_init() {
           'category'      => 'formatting',
           'icon'          => 'admin-comments',
           'keywords'      => array( 'luigi_block_option_1_kinesis', 'quote' ),
-          'enqueue_style' => get_stylesheet_directory_uri() . '/assets/css/bootstrap.min.css',
+          'enqueue_style' => WP_PLUGIN_DIR . '/Custom-Block-Kinesis/css/luigi-style.css',
       ));
   }
 }
