@@ -1,0 +1,197 @@
+[
+    {
+        "key": "group_6144843f015cf",
+        "title": "Custom Block option 1",
+        "fields": [
+            {
+                "key": "field_6144a3a9196a5",
+                "label": "Block Title",
+                "name": "block_title",
+                "type": "text",
+                "instructions": "This is the Block Title",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_6144843f0a3cc",
+                "label": "Block headline",
+                "name": "block_headline",
+                "type": "text",
+                "instructions": "Write here the block headline",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_6144ac9b66d90",
+                "label": "Do you want pick up Categories?",
+                "name": "do_you_want_pick_up_categories",
+                "type": "radio",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "yes": "Yes",
+                    "no": "No"
+                },
+                "allow_null": 0,
+                "other_choice": 0,
+                "default_value": "no",
+                "layout": "vertical",
+                "return_format": "value",
+                "save_other_choice": 0
+            },
+            {
+                "key": "field_6144abb5723e2",
+                "label": "Block Category list",
+                "name": "block_category_list",
+                "type": "taxonomy",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_6144ac9b66d90",
+                            "operator": "==",
+                            "value": "yes"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "category",
+                "field_type": "checkbox",
+                "add_term": 1,
+                "save_terms": 0,
+                "load_terms": 0,
+                "return_format": "id",
+                "multiple": 0,
+                "allow_null": 0
+            },
+            {
+                "key": "field_6144ad2c66d91",
+                "label": "Do you want pick up Posts?",
+                "name": "do_you_want_pick_up_posts",
+                "type": "radio",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "yes": "Yes",
+                    "no": "No"
+                },
+                "allow_null": 0,
+                "other_choice": 0,
+                "default_value": "no",
+                "layout": "vertical",
+                "return_format": "value",
+                "save_other_choice": 0
+            },
+            {
+                "key": "field_6144ac2bb9527",
+                "label": "Block post list",
+                "name": "block_post_list",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_6144ad2c66d91",
+                            "operator": "==",
+                            "value": "yes"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "row",
+                "button_label": "Add Post",
+                "sub_fields": [
+                    {
+                        "key": "field_6144ac45b9528",
+                        "label": "Post",
+                        "name": "post",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": "",
+                        "taxonomy": "",
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "return_format": "object",
+                        "ui": 1
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "acf\/luigi-block-option1"
+                }
+            ],
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "acf\/luigi-block-option-1"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]
