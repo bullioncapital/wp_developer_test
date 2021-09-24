@@ -1,0 +1,23 @@
+{
+  "name": "assets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.3.5",
+    "postcss": "^8.3.7",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.15"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "18.0.1"
+  },
+  "scripts": {
+    "watch": "npx postcss ./src/kinesis-test.css -o ./css/kinesis-test.css --watch",
+    "build:scripts": "wp-scripts build",
+    "start-build": "wp-scripts start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
