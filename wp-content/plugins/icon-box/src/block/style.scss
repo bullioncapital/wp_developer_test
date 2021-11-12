@@ -1,0 +1,32 @@
+.wp-block-site-title{
+    margin-bottom: 2rem;
+    a{
+        color: $black;
+        font-size: 1.875rem;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+
+h3{
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+p{
+    font-weight: 500;
+}
+
+.inner{
+    padding: 2rem 0;
+    &.first-col{
+        border-bottom: 2px solid lightgrey;
+        @media (min-width: 992px){
+            border-right: 2px solid lightgrey;
+            padding-right: 2rem;
+            border-bottom: none;
+        }
+    }
+}
