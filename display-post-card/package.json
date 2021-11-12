@@ -1,0 +1,16 @@
+{
+  "name": "display-post-card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@wordpress/scripts": "19.1.0"
+  },
+  "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1",
+	"build:scripts": "wp-scripts build"
+  },
+  "author": "Farhan",
+  "license": "GPL-3.0"
+}
